@@ -1,0 +1,870 @@
+body {
+  background-color: #e0e0e0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #b49776;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('image/bc(1).jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Button */
+.btn {
+  padding: 10px 20px;
+}
+
+/* Testimonials */
+blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  border-left: 5px solid #b97e4d;
+  padding-left: 10px;
+}
+
+/* Footer */
+.social-icons img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+#about-us {
+  padding: 60px 0;
+}
+
+#about-us h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#about-us p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+#about-us .container {
+  max-width: 900px;
+}
+
+#about-us .text-center p {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #444;
+}
+/* Our Services Section */
+#our-services {
+  padding: 60px 0;
+}
+
+#our-services h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+#our-services .text-center p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Our Team Section */
+#our-team {
+  padding: 60px 0;
+}
+
+#our-team h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+}
+
+.team-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.team-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.btn-info {
+  margin-top: 10px;
+}
+
+/* Gallery Section */
+#gallery {
+  padding: 60px 0;
+}
+
+#gallery h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#gallery p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-card img {
+  border-radius: 8px;
+}
+
+.gallery-card h5 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+}
+
+/* What People Say Section */
+
+#testimonials {
+  padding: 60px 0; /* Padding atas dan bawah */
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#testimonials p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-card h5 {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #007bff; /* Warna nama pengirim */
+}
+
+.btn-primary {
+  margin-top: 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+/* Blog Section */
+#blog {
+  padding: 60px 0;
+}
+
+#blog h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#blog p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+/* Contact Us Section */
+#contact {
+  padding: 60px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+#contact .form-label {
+  font-weight: bold;
+}
+
+#contact .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#contact .btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+#contact .btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.embed-responsive {
+  border-radius: 8px;
+}
+
+/* Footer Section */
+.footer {
+  background-color:#b49776;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+
+/* Booking Section */
+#booking {
+  background-color: #f9f9f9;
+  padding: 60px 0; /* Padding bawah untuk ruang */
+}
+
+#booking h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#booking p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+#booking .form-group label {
+  font-weight: bold;
+}
+
+#booking .form-control {
+  border-radius: 5px;
+}
+
+#booking .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#booking .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style untuk Section Profile */
+#profile {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.profile-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.profile-section p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Animasi garis di bawah judul */
+.profile-section h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ff6b6b;
+  margin-top: 8px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .profile-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .profile-section p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style untuk Section Our Services */
+#our-services {
+  background-color: #f4f4f9;
+  padding: 60px 0;
+}
+
+#our-services h2 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-section h3 {
+  font-size: 1.8rem;
+  color: #ff6b6b;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.service-section h3::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ff6b6b;
+  margin-top: 8px;
+}
+
+.service-section p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  #our-services h2 {
+    font-size: 2rem;
+  }
+
+  .service-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .service-section p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style untuk Section Our Team */
+#our-team {
+  background-color: #f4f4f9;
+  padding: 60px 0;
+}
+
+#our-team h2 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.member-photo img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+  margin-bottom: 5px;
+}
+
+.team-member .position {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.team-member p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  #our-team h2 {
+    font-size: 2rem;
+  }
+
+  .team-member h3 {
+    font-size: 1.3rem;
+  }
+
+  .team-member p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style untuk Section Contact Us */
+#contact-us {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#contact-us h2 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-block {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-block h3 {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+  margin-bottom: 15px;
+}
+
+.contact-block p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-block a.social-link {
+  color: #ff6b6b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-block a.social-link:hover {
+  text-decoration: underline;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ff5a5a;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  #contact-us h2 {
+    font-size: 2rem;
+  }
+
+  .contact-block h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-block p {
+    font-size: 0.9rem;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+}
+
+/* Style untuk Section Blog */
+#blog {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+#blog h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.blog-block {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.blog-block h3 {
+  font-size: 1.6rem;
+  color: #ff6b6b;
+  margin-bottom: 15px;
+}
+
+.blog-block p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.blog-block .btn-primary {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.blog-block .btn-primary:hover {
+  background-color: #ff5a5a;
+}
+
+/* Responsif */
+@media (max-width: 100px) {
+  #blog h2 {
+    font-size: 2rem;
+  }
+  
+  .blog-block h3 {
+    font-size: 1.4rem;
+  }
+
+  .blog-block p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style untuk Section FAQ */
+#faq {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#faq h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.accordion-button {
+  font-weight: bold;
+  color: #afafaf;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover, .accordion-button:focus {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-body {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  border-left: 5px solid #fcb4b4;
+  padding: 15px 20px;
+}
+
+
+
+/* Style untuk Section Gallery */
+#gallery {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#gallery h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#gallery .img-fluid {
+  transition: transform 0.3s ease;
+}
+
+#gallery .img-fluid:hover {
+  transform: scale(1.05);
+}
+
+#gallery video {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#galleryCarousel {
+  position: relative;
+}
+
+#galleryCarousel .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff6b6b;
+  border-radius: 50%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  #gallery h2 {
+    font-size: 2rem;
+  }
+
+  #gallery .carousel-item img {
+    height: 300px;
+  }
+}
